@@ -1,0 +1,50 @@
+<div *ngIf="hero">
+
+    <h2>{{hero.hero_name}} Propreties: </h2>
+    <div class="id"><span>id: </span>{{hero.id}}</div>
+    <div>
+    
+        <ul class="propreties_heroes">
+            <li>
+                <label for="hero-name"> Hero Name: </label>
+                <input id="hero-name" [(ngModel)]="hero.hero_name" placeholder="name">
+            </li>
+
+            <li>
+                <label for="hero-real-name"> Hero Real Name: </label>
+                <input id="hero-real-name" [(ngModel)]="hero.real_name" placeholder="real name">  
+
+            </li>
+
+            <li>
+                <label for="publisher"> Publisher: </label>
+                <input id="publisher" [(ngModel)]="hero.publisher" placeholder="publisher">  
+                
+            </li>
+
+
+            <li>
+                <label for="first_appereance_date"> First Appereance Date: </label>
+                <input type="date" id="first_appereance_date" [(ngModel)]="hero.first_appereance_date" placeholder="first_appereance_date">  
+                
+            </li>
+
+            <li>
+                <label for="powers"> Powers: </label>
+                <input id="powers" [(ngModel)]="hero.powers" placeholder="powers">  
+                
+            </li>
+
+            <li>
+                <label for="team_affiliations"> Team Affiliations: </label>
+                <input id="team_affiliations" [(ngModel)]="hero.team_affiliations" placeholder="team affiliations">  
+                
+            </li>
+
+        </ul>
+
+        <button (click)="goBack()">go back</button>
+
+    </div>    
+    
+</div>

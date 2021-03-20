@@ -1,0 +1,62 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    padding: .2rem;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 4px; 
+    border-color: grey;
+    border-width: 0.3px;
+  }
+
+  .propreties_heroes{
+    
+    list-style-type: none;
+    padding: 0;
+    width: 30em;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  .id{
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  .propreties_heroes li{
+    position: relative;
+    left: 0;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+label {
+  color: #435960;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+    
+    
+
+
+
+  
