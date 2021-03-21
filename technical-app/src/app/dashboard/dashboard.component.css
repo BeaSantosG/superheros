@@ -1,17 +1,28 @@
 *{
     font-family: 'Courier New', Courier, monospace;
 }
-h2 {
+h3 {
     text-align: center;
     position: relative;
-    top: 130px;
+    top: 185px;
+    color: rgb(160, 160, 160);
+  }
+
+  mat-paginator{
+    color: grey;
+    min-width: 150px;
+    max-width: 500px;
+    margin: auto;
+    padding: 13px;
+    
   }
   
   .heroes-menu {
-    padding: 0;
+    padding: 25px;
     margin: auto;
     max-width: 1000px;
     background-color: #f2f2f2;
+    border-radius:10px;
   
     /* flexbox */
     display: flex;
@@ -20,7 +31,7 @@ h2 {
     justify-content: space-around;
     align-content: flex-start;
     align-items: flex-start;
-    margin-top: 80px;
+    margin-top: 150px;
   }
   
   a {
@@ -41,7 +52,7 @@ h2 {
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
-    margin-top: 110px;
+    margin-top: 35px;
   }
   
   @media (min-width: 600px) {

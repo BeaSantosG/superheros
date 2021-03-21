@@ -1,8 +1,20 @@
-<h2>Top SuperHeroes</h2>
 
+<h3>All  SuperHeroes</h3>
 <div class="heroes-menu">
-  <a *ngFor="let hero of heroes"
+  
+  <a *ngFor="let hero of pageSlice"
   routerLink="/detail/{{hero.id}}">
     {{hero.hero_name}}
   </a>
 </div>
+
+
+
+<mat-paginator 
+              [length]="this.heroes.length"
+              [pageSize]="10"
+              (page)="OnPageChange($event)">
+</mat-paginator>
+
+
+

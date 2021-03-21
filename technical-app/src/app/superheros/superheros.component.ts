@@ -16,7 +16,7 @@ export class SuperherosComponent implements OnInit {
 
   heroes: SuperHero[] = [];
 
-  selectedHero?: SuperHero;
+  //selectedHero?: SuperHero;
 
   
 
@@ -35,9 +35,6 @@ export class SuperherosComponent implements OnInit {
         .subscribe(heroes => this.heroes = heroes);
   }
 
-  onSelect(hero: SuperHero): void {
-    this.selectedHero = hero;
-  }
 
 
 }

@@ -1,9 +1,13 @@
 /* Application-wide Styles */
+
+
 h1 {
     color: #104455;
     font-family: "Courier New", Courier, monospace;
     font-size: 250%;
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(82, 208, 193);
     
   }
   h2, h3 {
@@ -20,11 +24,12 @@ h1 {
   body, input[type="text"], button {
     color: #333;
     font-family: "Courier New", Courier, monospace;
-    
-    
   }
 
+
+
   .button_heros{
+
     background-color: #0a3849;
     border-radius: 5px;
     padding: 8.3px;
@@ -40,17 +45,14 @@ h1 {
     flex: 0 1 auto;
     align-self: auto;
     
+    
+    
 
-    margin: 0;
-    position: absolute;
-    top: 20%;
-    left: 60%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 
   }
 
   .button_dashboard{
+
     background-color: #0a3849;
     border-radius: 5px;
     padding: 8.3px;
@@ -67,12 +69,6 @@ h1 {
     align-self: auto;
     
 
-    margin: 0;
-    position: absolute;
-    top: 20%;
-    left: 40%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 
   }
 
@@ -82,6 +78,13 @@ h1 {
     background-color: rgb(38, 73, 85);
   }
 
+  @media (min-width: 600px) {
+    a {
+      width: 20%;
+      box-sizing: content-box;
+      font-size: 10px;
+    }
+  }
 
 
 

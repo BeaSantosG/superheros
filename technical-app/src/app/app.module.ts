@@ -12,29 +12,42 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { SearchComponent } from './search/search.component';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatPaginatorModule} from '@angular/material/paginator';
+
 
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SuperherosComponent,
-    OrganizingHerosComponent,
-    DashboardComponent,
-    SearchComponent,
-    
-  ],
+
   imports: [
     BrowserModule,
-    AppRoutingModule,
     FormsModule,
+    AppRoutingModule,
     HttpClientModule,
+    HttpClientInMemoryWebApiModule.forRoot(
+      InMemoryDataService, { dataEncapsulation: false }
+    ),
+    MatIconModule,
+    MatButtonModule,
+    BrowserAnimationsModule,
+    MatPaginatorModule
+   
+  ],
+
+  declarations: [
+    AppComponent,
+    DashboardComponent,
+    SuperherosComponent,
+    OrganizingHerosComponent,
+    SearchComponent,
+    
   ],
   providers: [],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
 
-HttpClientInMemoryWebApiModule.forRoot(
-  InMemoryDataService, { dataEncapsulation: false }
-)
+

@@ -2,6 +2,30 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+h3{
+  text-align: center;
+  position: relative;
+  top: 130px;
+
+}
+
+.heroes-menu {
+  padding: 25px;
+  margin: auto;
+  max-width: 1000px;
+  background-color: #f2f2f2;
+  border-radius:10px;
+
+  /* flexbox */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+
 input {
     padding: .2rem;
     font-family: 'Courier New', Courier, monospace;
@@ -54,6 +78,42 @@ button:disabled {
   color: #ccc;
   cursor: auto;
 }
+
+.save_btn{
+  background-color: rgb(82, 208, 193);
+  color: white;
+  border: solid rgb(82, 208, 193) ;
+  padding: 5px;
+  margin-left: 50px;
+  cursor: pointer;
+ 
+}
+
+.goback_btn{
+  background-color: #0a3849;
+  color: white;
+  border: solid #0a3849;
+  padding: 5px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+.goback_btn:hover{
+  background-color: #497180;
+  color: white;
+  border: solid #497180;
+
+
+}
+
+.save_btn:hover{
+  background-color: #7dc0ad;
+  color: white;
+  border: solid #7dc0ad;
+
+}
+
+
     
     
 
