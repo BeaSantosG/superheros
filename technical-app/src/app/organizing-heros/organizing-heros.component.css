@@ -5,7 +5,7 @@
 h3{
   text-align: center;
   position: relative;
-  top: 130px;
+  top: 70px;
 
 }
 
@@ -23,7 +23,7 @@ h3{
   justify-content: space-around;
   align-content: flex-start;
   align-items: flex-start;
-  margin-top: 100px;
+  margin-top: 35px;
 }
 
 input {
@@ -37,11 +37,23 @@ input {
   .propreties_heroes{
     
     list-style-type: none;
-    padding: 0;
     width: 30em;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    min-width: 70px;
+    margin: .5rem auto;
+    box-sizing: border-box;
+    font-size: 14px;
+  
+    /* flexbox */
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    
 
   }
+
+
 
   .id{
     font-family: 'Courier New', Courier, monospace;
@@ -57,6 +69,10 @@ input {
     font-family: 'Courier New', Courier, monospace;
   }
   
+
+
+
+
 label {
   color: #435960;
   font-weight: bold;
@@ -86,6 +102,8 @@ button:disabled {
   padding: 5px;
   margin-left: 50px;
   cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  font-size: 13px;
  
 }
 
@@ -96,12 +114,15 @@ button:disabled {
   padding: 5px;
   margin-left: 80px;
   cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  font-size: 13px;
 }
 
 .goback_btn:hover{
   background-color: #497180;
   color: white;
   border: solid #497180;
+
 
 
 }
@@ -114,7 +135,7 @@ button:disabled {
 }
 
 
-    
+
     
 
 

@@ -16,6 +16,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 
@@ -33,7 +34,9 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatIconModule,
     MatButtonModule,
     BrowserAnimationsModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatGridListModule
+
    
   ],
 

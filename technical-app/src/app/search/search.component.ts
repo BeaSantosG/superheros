@@ -18,9 +18,13 @@ import { HeroService } from '../hero.service';
 export class SearchComponent implements OnInit {
   heroes$!: Observable<SuperHero[]>;
 
+  
+
   private searchTerms = new Subject<string>();
 
-  constructor(private heroService: HeroService) { }
+  constructor(private heroService: HeroService) { 
+
+  }
 
   search(term: string): void {
     this.searchTerms.next(term);
