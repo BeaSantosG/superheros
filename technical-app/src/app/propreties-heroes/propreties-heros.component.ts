@@ -9,11 +9,11 @@ import { HeroService } from '../hero.service';
 
 
 @Component({
-  selector: 'app-organizing-heros',
-  templateUrl: './organizing-heros.component.html',
-  styleUrls: ['./organizing-heros.component.css']
+  selector: 'app-propreties-heros',
+  templateUrl: './propreties-heros.component.html',
+  styleUrls: ['./propreties-heros.component.css']
 })
-export class OrganizingHerosComponent implements OnInit {
+export class PropretiesHerosComponent implements OnInit {
 
   
   //hero: SuperHero[] = [];

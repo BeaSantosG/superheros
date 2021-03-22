@@ -3,9 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SuperherosComponent } from './superheros/superheros.component';
 import { FormsModule } from '@angular/forms';
-import { OrganizingHerosComponent } from './organizing-heros/organizing-heros.component';
+import { PropretiesHerosComponent } from './propreties-heroes/propreties-heros.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -43,8 +42,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
   declarations: [
     AppComponent,
     DashboardComponent,
-    SuperherosComponent,
-    OrganizingHerosComponent,
+    PropretiesHerosComponent,
     SearchComponent,
     
   ],
