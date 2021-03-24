@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+## More Informations - Beatriz Goncalves
+
+The project is on a folder called "technical-app".
+
+Project made in Framework Angular.
+
+I chose this framework because it was already on my list for a long time and i wanted to try it out! 
+Loved learning new things
+
+Link to run the Project: https://superheroes-cf5a9.web.app
+
+or if you have angular CLI and node installed on your computer: ng serve --open
+
