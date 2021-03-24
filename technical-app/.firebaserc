@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "superheroes-cf5a9": {
+      "hosting": {
+        "technical-app": [
+          "superheroes-cf5a9"
+        ]
+      }
+    }
+  }
+}
