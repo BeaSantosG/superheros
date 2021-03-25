@@ -5,7 +5,7 @@ The project is on a folder called "technical-app".
 
 Project made in Framework Angular.
 
-I chose this framework because it was already on my list for a long time and i wanted to try it out! Loved learning new things
+I chose this framework because it was already on my list for a long time and i wanted to try it out! Love learning new things
 
 Link to run the Project: https://superheroes-cf5a9.web.app
 
